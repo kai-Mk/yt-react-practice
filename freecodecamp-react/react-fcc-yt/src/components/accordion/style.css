@@ -1,0 +1,46 @@
+.wrapper{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.multiple-btn {
+    padding: 10px 20px;
+    background: #fff;
+    border:1px solid #6c49ec;
+    color: #6c49ec;
+    font-weight: bold;
+    font-style: 20px;
+    cursor: pointer;
+}
+
+.multiple-active{
+    background: #6c49ec;
+    color: #fff;
+}
+
+.accordion{
+    width: 500px;
+}
+
+.item{
+    background: #614101;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+
+.title{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content{
+    color: #fff;    
+    height: auto;
+}

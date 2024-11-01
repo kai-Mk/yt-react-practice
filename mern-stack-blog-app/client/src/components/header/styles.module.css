@@ -1,0 +1,22 @@
+.wrapper{
+    display: flex;
+    padding: 30px;
+}
+
+.wrapper h3{
+    flex: 1;
+    font-size: 40px;
+    margin: 0;
+}
+
+.wrapper ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.wrapper ul li {
+    font-style: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
